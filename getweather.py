@@ -54,4 +54,5 @@ file.write('\n')
 file.write(formattedData)
 file.close()
 print('The file weatherdata.txt has been updated in the pythonfiles directory in the path '+currentDir)
+os.command('cmd /k "pause"')
 
