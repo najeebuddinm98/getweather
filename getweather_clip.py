@@ -60,5 +60,5 @@ if __name__=="__main__":
         print("You haven't downloaded the pyperclip module. Try again after downloading.")
 
     finally:
-        os.command('cmd /k "pause"')
+        os.system('cmd /k "pause"')
 
